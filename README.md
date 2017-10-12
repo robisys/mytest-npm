@@ -6,6 +6,9 @@ Implementation of [(Un)commonJS unit test runner][UncommonJS unit test runner].
 
 [![build status](https://secure.travis-ci.org/Gozala/test-commonjs.png)](http://travis-ci.org/Gozala/test-commonjs)
 
+
+[![Build Status](https://secure.travis-ci.org/robisys/mytest-npm.svg?branch=master)](https://travis-ci.org/robisys/mytest-npm)
+
 ## Testing
 
 In order to make your package testable from [npm] you should:
