@@ -1,0 +1,23 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "beschreibung",
+  "main": "index.js",
+  "dependencies": {
+    "test": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robisys/bot-sdk-mynet"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robisys/bot-sdk-mynet/issues"
+  },
+  "homepage": "https://github.com/robisys/bot-sdk-mynet"
+}
