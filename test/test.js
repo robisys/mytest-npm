@@ -13,8 +13,8 @@ console.log("test:  start.js");
  
    "use strict";
 
-var Assert = require("./assert").Assert
-var Logger = require("./logger").Logger
+//var Assert = require("./assert").Assert
+//var Logger = require("./logger").Logger
 
 
 var ERR_COMPLETED_ASSERT = "Assert in completed test"
@@ -93,7 +93,7 @@ function Unit(name, units, logger, Assert) {
 /**
  * Test runner function.
  */
-exports.run = function run(units, logger) {
+//exports.run = function run(units, logger) {
   var exit = logger ? false : true
   logger = logger || new Logger()
   var unit = Unit("Running all tests:", units, logger, Assert)
@@ -103,4 +103,7 @@ exports.run = function run(units, logger) {
     // Exit only if `process.exit` exist and if no logger was provided.
     if (exit && process.exit) process.exit(failed ? 1 : 0)
   })
-}
+// }
+//   run() ;
+
+console.log("test:  end");
