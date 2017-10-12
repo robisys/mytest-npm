@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/robisys/bot-sdk-mynet"
+    "url": "https://github.com/robisys/mytest-npm"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robisys/bot-sdk-mynet/issues"
+    "url": "https://github.com/robisys/mytest-npm/issues"
   },
-  "homepage": "https://github.com/robisys/bot-sdk-mynet"
+  "homepage": "https://github.com/robisys/mytest-npm"
 }
