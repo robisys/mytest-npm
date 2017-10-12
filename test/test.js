@@ -8,9 +8,9 @@
 
 const testus = require('test'); // node_modules test
 
-*/
+
 console.log("test:  start.js");
-  /*
+ 
    "use strict";
 
 var Assert = require("./assert").Assert
@@ -104,4 +104,3 @@ exports.run = function run(units, logger) {
     if (exit && process.exit) process.exit(failed ? 1 : 0)
   })
 }
-   */
