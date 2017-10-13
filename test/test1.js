@@ -5,15 +5,7 @@
  * test vor npm utilities
  *
  */
-
-const testus = require('test'); // node_modules test
-
-
-console.log("test:  start.js");
- 
-
-//   run() ;
-
+console.log("test1:  start.js");
 // if test function expects second named argument it will be executed
 // in async mode and test will be complete only after callback is called
 
@@ -34,6 +26,7 @@ exports['test my async foo'] = function(assert, done) {
 
 if (module == require.main) require('test').run(exports)
 
+/*
 
 // using assert passed to the test function that just logs failures
 exports['test that logs all failures'] = function(assert) {
@@ -55,7 +48,7 @@ exports['test that stops execution on first failure'] = function() {
 
 if (module == require.main) require('test').run(exports)
 
-/*
+
 
 var AssertBase = require('assert').Assert
 var AssertDescriptor = {
@@ -77,7 +70,7 @@ function Assert() {
   return Object.create(AssertBase.apply(null, arguments), AssertDescriptor)
 }
 
-*/
+
 // bundling custom asserts with test suite
 //exports.Assert = Assert
 
@@ -88,5 +81,5 @@ exports['test with custom asserts'] = function(assert) {
 
 if (module == require.main) require('test').run(exports)
 
-
-console.log("test:  end");
+*/
+console.log("test1:  end");
