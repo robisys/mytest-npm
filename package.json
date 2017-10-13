@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm run  run1 & npm run  run2",
+    "test": "npm run  run1 & npm run  run2 & npm run  run3  & npm run  run4 & npm run run5",
     "run5": "node  ./test/test5.js",
     "run4": "node  ./test/test4.js",
     "run3": "node  ./test/test3.js",
