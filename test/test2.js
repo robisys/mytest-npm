@@ -51,7 +51,7 @@ var AssertDescriptor = {
 function Assert() {
   return Object.create(AssertBase.apply(null, arguments), AssertDescriptor)
 }
-*/
+
 // bundling custom asserts with test suite
 //exports.Assert = Assert
 
@@ -61,6 +61,6 @@ exports['test with custom asserts'] = function(assert) {
 }
 
 if (module == require.main) require('test').run(exports)
-
+*/
 
 console.log("test2:  end");
