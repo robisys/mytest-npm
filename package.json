@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm run  run1"
+    "test": "npm run  run1",
     "run1": "node  ./test/test.js"
   },
   "repository": {
