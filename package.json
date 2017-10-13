@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node ./test/test.js"
+    "test": "npm run  run1"
+    "run1": "node  ./test/test.js"
   },
   "repository": {
     "type": "git",
