@@ -9,6 +9,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "npm run  run1 & npm run  run2",
+    "run5": "node  ./test/test5.js",
+    "run4": "node  ./test/test4.js",
+    "run3": "node  ./test/test3.js",
     "run2": "node  ./test/test2.js",
     "run1": "node  ./test/test1.js"
   },
