@@ -8,8 +8,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm run  run1",
-    "run1": "node  ./test/test.js"
+    "test": "npm run  run1 & npm run  run2",
+    "run2": "node  ./test/test2.js",
+    "run1": "node  ./test/test1.js"
   },
   "repository": {
     "type": "git",
