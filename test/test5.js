@@ -6,25 +6,7 @@
  *
  */
 
-const testus = require('test'); // node_modules test
-
-
-console.log("test3:  start.js");
- 
-
-
-
-
-// using assert passed to the test function that just logs failures
-exports['test that logs all failures'] = function(assert) {
-  assert.equal(2 + 2, 5, 'assert failure is logged')
-  assert.equal(3 + 2, 5, 'assert pass is logged')
-}
-
-if (module == require.main) require('test').run(exports)
-
-
-
+console.log("test5:  start.js");
 // using nodejs's build in asserts that throw on failure
 var assert = require('assert')
 
@@ -55,7 +37,7 @@ var AssertDescriptor = {
 function Assert() {
   return Object.create(AssertBase.apply(null, arguments), AssertDescriptor)
 }
-*/
+
 // bundling custom asserts with test suite
 //exports.Assert = Assert
 
@@ -67,4 +49,6 @@ exports['test with custom asserts'] = function(assert) {
 if (module == require.main) require('test').run(exports)
 
 
-console.log("test3:  end");
+*/
+
+console.log("test5:  end");
