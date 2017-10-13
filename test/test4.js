@@ -6,14 +6,7 @@
  *
  */
 
-const testus = require('test'); // node_modules test
-
-
-console.log("test3:  start.js");
- 
-
-
-
+console.log("test4:  start");
 
 // using assert passed to the test function that just logs failures
 exports['test that logs all failures'] = function(assert) {
@@ -67,4 +60,4 @@ exports['test with custom asserts'] = function(assert) {
 if (module == require.main) require('test').run(exports)
 
 
-console.log("test3:  end");
+console.log("test4:  end");
