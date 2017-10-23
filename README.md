@@ -101,6 +101,7 @@ var AssertDescriptor = {
     }
   }, enumerable: true }
 }
+
 function Assert() {
   return Object.create(AssertBase.apply(null, arguments), AssertDescriptor)
 }
