@@ -8,14 +8,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm run r1 &  npm run  r1a & npm run  r2 & npm run r3 & npm run r4 & npm run r5",
+    "testa": "npm run r1 &  npm run  r1a & npm run  r2 & npm run r3 & npm run r4 & npm run r5",
     "r5": "node  ./test/test5.js",
     "r4": "node  ./test/test4.js",
     "r3": "node  ./test/test3.js",
     "r2": "node  ./test/test2.js",
     "r1a": "node  ./test/test1a.js",
     "r1": "node  ./test/testn1.js",
-    
+     "test": " npm run  r1a & npm run  r2 & npm run r3 & npm run r4 ",
     "run1": "node  ./test/test1.js"
   },
   "repository": {
