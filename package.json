@@ -15,7 +15,7 @@
     "r2": "node  ./test/test2.js",
     "r1a": "node  ./test/test1a.js",
     "r1": "node  ./test/testn1.js",
-     "test": " npm run r3  ",
+     "test": " npm run r1  ",
     "run1": "node  ./test/test1.js"
   },
   "repository": {
